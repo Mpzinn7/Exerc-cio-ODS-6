@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 6 - Água Potável e Saneamento</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <style>
+        /* Estilo da tela inicial */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('img/imagemáguapotavel.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 30px;
+            width: 900px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        p {
+            padding: 3px;
+        }
+
+        .btn {
+            padding: 11px 15px;
+            font-size: 18px;
+            color: black;
+            background-color: rgb(80, 224, 217);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #004d40;
+        }
+
+        /* Estilo para os botões de navegação no canto superior direito */
+        .nav-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-button {
+            background: none;
+            border: none;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            background-color: rgb(80, 224, 217);
+        }
+
+        .nav-button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botões de Navegação no canto superior direito -->
+    <div class="nav-buttons">
+        <a href="home.html" class="nav-button">Home</a>
+        <a href="conteudo.html" class="nav-button">Conteúdo</a>
+        <a href="sobre.html" class="nav-button">Sobre</a>
+        <a href="contato.html" class="nav-button">Contato</a>
+    </div>
+
+    <div class="container">
+        <h1>Bem-vindo ao site sobre a ODS 6</h1>
+        <p> ➩ Clique no botão abaixo para acessar o conteúdo completo sobre a ODS 6.</p>
+        <a href="conteudo.html" class="btn">Ver Conteúdo</a>
+    </div>
+</body>
+</html>
